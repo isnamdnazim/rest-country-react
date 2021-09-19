@@ -11,7 +11,7 @@ const Countries = () => {
     }, []);
     return (
         <div>
-            <h1>Hello From <span className="text-color">REST Countries</span> API</h1>
+            <h1>Hello From <span className="text-color">REST Countries</span> API In <span className="react-app-color">React APP</span></h1>
             <h2>Total Country Found: <span className="text-color">{countries.length}</span></h2>
             <div className="main-country-container">
                 {
