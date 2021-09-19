@@ -1,0 +1,8 @@
+.main-country-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-color{
+    color: #198753;
+}
