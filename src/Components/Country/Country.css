@@ -1,6 +1,10 @@
 .country{
-    background-color: rgb(174, 180, 187);
-    border: 2px solid antiquewhite;
+    background-color: rgb(213, 218, 224);
+    border: 2px solid rgb(12, 12, 12);
     margin: 15px;
     padding: 10px;
+}
+
+.country img{
+    width: 200px;
 }

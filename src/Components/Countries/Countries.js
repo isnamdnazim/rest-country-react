@@ -13,7 +13,9 @@ const Countries = () => {
             <h1>Hello From REST Countries API</h1>
             <h2>Total Country Found: {countries.length}</h2>
             {
-                countries.map(country => <Country name={country.name} capital={country.capital} population={country.population}></Country>)
+                countries.map(country => <Country
+                    country={country}
+                ></Country>)
             }
         </div>
     );
